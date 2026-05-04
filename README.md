@@ -16,6 +16,10 @@ Personal technical notes, learning resources, and engineering knowledge base.
 - [Performance Logging Infrastructure](dotnet/performance-logging-infrastructure.md) — Building a configurable EF SQL + HTTP request duration logging stack with zero overhead
 - [Service Performance Optimization Summary](dotnet/service-performance-optimization-summary.md) — End-to-end journey: 15 min → 1 min (92% reduction) across SQL, algorithms, memory, and GC
 
+### .NET Concurrency & EF Core Migration
+- [**.NET Concurrency & Multi-Threading Guide**](dotnet/concurrency/README.md) — Comprehensive guide inspired by *Java Concurrency in Practice*, adapted for .NET: ThreadPool, async/await, synchronization primitives, concurrent collections, Channels, and practical NBAaS patterns.
+- [**EF Core Migration Guide**](dotnet/ef-migration/README.md) — EF6 → EF Core migration playbook: DbContext lifecycle, connection string changes, query translation differences, bulk operations, and practical migration patterns.
+
 ### Tools & Techniques
 - [SQL Profiler Quick Reference](tools/sql-profiler-quick-reference.md) — One-page cheat sheet for SQL Server Profiler
 - [Log Comparison Scripts](tools/log-comparison-scripts.md) — PowerShell scripts for verifying refactored code produces identical output
