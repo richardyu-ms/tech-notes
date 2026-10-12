@@ -611,4 +611,4 @@ Based on our real-world EF6 → EF Core 8 migration of NBAaS (Azure-Network-Grap
 | 12 | `TransactionScope` | Auto-enlists | Must opt-in | Use `Database.BeginTransaction()` |
 | 13 | Enum conversion | Stored as int (default) | Same, but `HasConversion` available | Use `HasConversion<string>()` if needed |
 
-> For detailed analysis of each pitfall with code examples, see the project-specific [EFCoreMigration.md](../../Azure-Network-Graph/src/developer/xinlyu/DesignDoc/EFCoreMigration/EFCoreMigration.md) and [EFCoreMigrationTutorial.md](../../Azure-Network-Graph/src/developer/xinlyu/DesignDoc/EFCoreMigration/EFCoreMigrationTutorial.md).
+> For detailed analysis of each pitfall with code examples, see the project-specific [EFCoreMigration.md](../../../Azure-Network-Graph/src/developer/xinlyu/DesignDoc/Fundamental/Platform/EFCoreMigration/EFCoreMigration.md) and [EFCoreMigrationTutorial.md](../../../Azure-Network-Graph/src/developer/xinlyu/DesignDoc/Fundamental/Platform/EFCoreMigration/EFCoreMigrationTutorial.md).
